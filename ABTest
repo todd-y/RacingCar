@@ -1,7 +1,7 @@
   
 {
 	"DefaultValues": {
-	"interstitials_levelup": true,
+	"interstitials_up": true,
         "interstitials_fly": true,
         "interstitials_achieve": true,
 
