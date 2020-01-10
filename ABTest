@@ -1,0 +1,20 @@
+  
+{
+	"DefaultValues": {
+	    "interstitials_levelup": true,
+        "interstitials_fly": true,
+        "interstitials_achieve": true,
+
+        "AB_test_users": 0  
+},
+
+	"ABtests": {
+
+        "Ref": {
+            "panel_size": 0
+        },
+        "A": {
+            "panel_size": 0
+        }
+      }
+}
