@@ -1,20 +1,21 @@
-  
 {
-	"DefaultValues": {
-	"interstitials_up": true,
-        "interstitials_fly": true,
-        "interstitials_achieve": true,
-
-        "AB_test_users": 0  
-},
-
-	"ABtests": {
-
-        "Ref": {
-            "panel_size": 0
-        },
-        "A": {
-            "panel_size": 0
-        }
-      }
+  "DefaultValues": {
+    "interstitials_levelup": true,
+    "interstitials_fly": true,
+    "interstitials_achieve": true,
+    "interstitials_time": 60,
+    "station_money_enabled": false,
+    "station_money_frequency": 120,
+    "station_money_multiplier": 60,
+    "world_cost_multiplier": 0.2,
+    "AB_test_users": 0
+  },
+  "ABtests": {
+    "Ref": {
+      "panel_size": 0
+    },
+    "A": {
+      "panel_size": 0
+    }
+  }
 }
