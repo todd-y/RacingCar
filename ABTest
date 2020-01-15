@@ -5,7 +5,7 @@
     "interstitials_achieve": true,
     "interstitials_time": 60,
 
-    "station_money_enabled": false,
+    "station_money_enabled": true,
     "station_money_frequency": 60,
     "station_money_multiplier": 0.2,
     
