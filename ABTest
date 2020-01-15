@@ -9,7 +9,7 @@
     "station_money_frequency": 60,
     "station_money_multiplier": 0.2,
     
-    "world_cost_multiplier": 0.1,
+    "world_cost_multiplier": 0.2,
     "AB_test_users": 0
   },
   "ABtests": {
