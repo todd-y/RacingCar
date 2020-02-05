@@ -1,0 +1,34 @@
+{
+	"DefaultValues": {
+		"interstitials_levelup": true,
+		"interstitials_fly": true,
+		"interstitials_achieve": true,
+		"interstitials_time": 120,
+		"station_money_enabled": false,
+		"station_money_frequency": 60,
+		"station_money_multiplier": 0.2,
+		"world_cost_multiplier": 0,
+		"more_game_frequency": 60,
+		"spin_enabled": false,
+
+		"AB_test_users": 80
+	},
+	"ABtests": {
+		"Ref": {
+			"panel_size": 10
+		},
+		"A": {
+			"panel_size": 10,
+			"station_money_enabled":true
+		},
+		"B": {
+			"panel_size": 10,
+			"world_cost_multiplier": 0.1
+		},
+		"C": {
+			"panel_size": 10,
+		    "station_money_enabled":true,
+		    "world_cost_multiplier": 0.1
+		}
+	}
+}
