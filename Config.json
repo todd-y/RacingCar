@@ -25,7 +25,7 @@
 		"saboteur_slowspeed": 0.25,
 		"saboteur_slowtime": 80,
 
-		"AB_test_users": 80
+		"AB_test_users": 0
 	},
 	"ABtests": {
 		"Ref": {
