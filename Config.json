@@ -1,0 +1,48 @@
+{
+	"DefaultValues": {
+		"interstitials_levelup": true,
+		"interstitials_fly": true,
+		"interstitials_achieve": true,
+		"interstitials_time": 120,
+		"station_money_enabled": false,
+		"station_money_frequency": 60,
+		"station_money_multiplier": 0.2,
+		"world_cost_multiplier": 0,
+		"more_game_frequency": 1,
+		"spin_enabled": false,
+
+		"free_fly_enbale": false,
+		"free_fly_Weights": 1,
+		"free_fly_min_frequency": 35,
+		"free_fly_max_frequency": 45,
+		"free_fly_multiplier": 0.2,
+
+		"saboteur_enable": false,
+		"saboteur_frequency": 75,
+		"saboteur_level": 5,
+		"saboteur_movetime": 5,
+		"saboteur_countdown": 5,
+		"saboteur_slowspeed": 0.25,
+		"saboteur_slowtime": 80,
+
+		"AB_test_users": 80
+	},
+	"ABtests": {
+		"Ref": {
+			"panel_size": 10
+		},
+		"A": {
+			"panel_size": 10,
+			"station_money_enabled":true
+		},
+		"B": {
+			"panel_size": 10,
+			"world_cost_multiplier": 0.1
+		},
+		"C": {
+			"panel_size": 10,
+		    "station_money_enabled":true,
+		    "world_cost_multiplier": 0.1
+		}
+	}
+}
