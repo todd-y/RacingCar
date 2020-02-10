@@ -7,11 +7,11 @@
 		"station_money_enabled": false,
 		"station_money_frequency": 60,
 		"station_money_multiplier": 0.2,
-		"world_cost_multiplier": 0,
-		"more_game_frequency": 60,
+		"world_cost_multiplier": 0.1,
+		"more_game_frequency": 1,
 		"spin_enabled": false,
 
-		"AB_test_users": 80
+		"AB_test_users": 50
 	},
 	"ABtests": {
 		"Ref": {
@@ -19,16 +19,15 @@
 		},
 		"A": {
 			"panel_size": 10,
-			"station_money_enabled":true
+			"spin_enabled": true
 		},
 		"B": {
 			"panel_size": 10,
-			"world_cost_multiplier": 0.1
+			"more_game_frequency": 99999
 		},
 		"C": {
 			"panel_size": 10,
-		    "station_money_enabled":true,
-		    "world_cost_multiplier": 0.1
+			"interstitials_time": 300
 		}
 	}
 }
