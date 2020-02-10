@@ -11,7 +11,7 @@
 		"more_game_frequency": 1,
 		"spin_enabled": true,
 
-		"free_fly_enbale": false,
+		"free_fly_enbale": true,
 		"free_fly_Weights": 1,
 		"free_fly_min_frequency": 35,
 		"free_fly_max_frequency": 45,
