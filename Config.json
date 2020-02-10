@@ -9,7 +9,7 @@
 		"station_money_multiplier": 0.2,
 		"world_cost_multiplier": 0,
 		"more_game_frequency": 1,
-		"spin_enabled": false,
+		"spin_enabled": true,
 
 		"free_fly_enbale": false,
 		"free_fly_Weights": 1,
