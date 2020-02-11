@@ -18,7 +18,7 @@
 		"free_fly_multiplier": 0.2,
 
 		"saboteur_enable": true,
-		"saboteur_frequency": 75,
+		"saboteur_frequency": 5,
 		"saboteur_level": 5,
 		"saboteur_movetime": 5,
 		"saboteur_countdown": 15,
