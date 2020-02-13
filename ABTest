@@ -11,6 +11,20 @@
 		"more_game_frequency": 1,
 		"spin_enabled": false,
 
+		"free_fly_enbale": true,
+		"free_fly_probability": 0.5,
+		"free_fly_min_frequency": 35,
+		"free_fly_max_frequency": 45,
+		"free_fly_multiplier": 0.2,
+
+		"saboteur_enable": true,
+		"saboteur_frequency": 75,
+		"saboteur_level": 5,
+		"saboteur_movetime": 5,
+		"saboteur_countdown": 15,
+		"saboteur_slowspeed": 0.25,
+		"saboteur_slowtime": 80,
+
 		"AB_test_users": 50
 	},
 	"ABtests": {
