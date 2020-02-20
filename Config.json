@@ -28,18 +28,18 @@
 		"AB_test_users": 0
 	},
 	"ABtests": {
-		"Ref": {
+		"1.4.1Ref": {
 			"panel_size": 10
 		},
-		"A": {
+		"1.4.1A": {
 			"panel_size": 10,
 			"station_money_enabled":true
 		},
-		"B": {
+		"1.4.1B": {
 			"panel_size": 10,
 			"world_cost_multiplier": 0.1
 		},
-		"C": {
+		"1.4.1C": {
 			"panel_size": 10,
 		    "station_money_enabled":true,
 		    "world_cost_multiplier": 0.1
