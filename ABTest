@@ -9,7 +9,7 @@
 		"station_money_multiplier": 0.2,
 		"world_cost_multiplier": 0.1,
 		"more_game_frequency": 1,
-		"spin_enabled": false,
+		"spin_enabled": true,
 
 		"free_fly_enbale": false,
 		"free_fly_probability": 0.5,
@@ -25,23 +25,25 @@
 		"saboteur_slowspeed": 0.25,
 		"saboteur_slowtime": 80,
 
-		"AB_test_users": 50
+		"AB_test_users": 80
 	},
 	"ABtests": {
-		"Ref": {
+		"1.4.1Ref": {
 			"panel_size": 10
 		},
-		"A": {
+		"1.4.1A": {
 			"panel_size": 10,
-			"spin_enabled": true
+			"free_fly_enbale": true
 		},
-		"B": {
-			"panel_size": 10,
-			"more_game_frequency": 99999
+		"1.4.1B": {
+			"saboteur_enable": true
 		},
-		"C": {
-			"panel_size": 10,
-			"interstitials_time": 300
+		"1.4.1C": {
+			"free_fly_enbale": true,
+			"saboteur_enable": true
+		},
+		"1.4.1D": {
+			"more_game_frequency": 999999
 		}
 	}
 }
