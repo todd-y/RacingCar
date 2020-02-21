@@ -25,6 +25,12 @@
 		"saboteur_slowspeed": 0.25,
 		"saboteur_slowtime": 80,
 
+		"order_enable": true,
+		"order_cost_multiplier": 1,
+		"order_reward_multiplier": 1,
+
+		"new_refit_enable": true,
+
 		"AB_test_users": 80
 	},
 	"ABtests": {
@@ -36,16 +42,16 @@
 			"free_fly_enbale": true
 		},
 		"1.4.1B": {
-    	"panel_size": 10,
+			"panel_size": 10,
 			"saboteur_enable": true
 		},
 		"1.4.1C": {
-    	"panel_size": 10,
+			"panel_size": 10,
 			"free_fly_enbale": true,
 			"saboteur_enable": true
 		},
 		"1.4.1D": {
-    	"panel_size": 10,
+			"panel_size": 10,
 			"more_game_frequency": 999999
 		}
 	}
