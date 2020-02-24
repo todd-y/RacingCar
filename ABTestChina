@@ -29,7 +29,7 @@
 		"order_cost_multiplier": 0.5,
 		"order_reward_multiplier": 1,
 
-		"new_refit_enable": true,
+		"new_refit_enable": false,
 
 		"AB_test_users": 0
 	},
