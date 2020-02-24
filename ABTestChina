@@ -8,7 +8,7 @@
 		"station_money_frequency": 60,
 		"station_money_multiplier": 0.2,
 		"world_cost_multiplier": 0.1,
-		"more_game_frequency": 1,
+		"more_game_frequency": 9999,
 		"spin_enabled": true,
 
 		"free_fly_enbale": false,
@@ -26,7 +26,7 @@
 		"saboteur_slowtime": 80,
 
 		"order_enable": true,
-		"order_cost_multiplier": 1,
+		"order_cost_multiplier": 0.5,
 		"order_reward_multiplier": 1,
 
 		"new_refit_enable": true,
