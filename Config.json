@@ -1,58 +1,64 @@
 {
-	"DefaultValues": {
-		"interstitials_levelup": true,
-		"interstitials_fly": true,
-		"interstitials_achieve": true,
-		"interstitials_time": 120,
-		"station_money_enabled": false,
-		"station_money_frequency": 60,
-		"station_money_multiplier": 0.2,
-		"world_cost_multiplier": 0.1,
-		"more_game_frequency": 1,
-		"spin_enabled": true,
+  "DefaultValues": {
+    "interstitials_levelup": true,
+    "interstitials_fly": true,
+    "interstitials_achieve": true,
+    "interstitials_time": 120,
+    "station_money_enabled": false,
+    "station_money_frequency": 60,
+    "station_money_multiplier": 0.2,
+    "world_cost_multiplier": 0.1,
+    "more_game_frequency": 9999,
+    "spin_enabled": true,
 
-		"free_fly_enbale": false,
-		"free_fly_probability": 0.5,
-		"free_fly_min_frequency": 35,
-		"free_fly_max_frequency": 45,
-		"free_fly_multiplier": 0.2,
+    "free_fly_enbale": false,
+    "free_fly_probability": 0.5,
+    "free_fly_min_frequency": 35,
+    "free_fly_max_frequency": 45,
+    "free_fly_multiplier": 0.2,
 
-		"saboteur_enable": true,
-		"saboteur_frequency": 75,
-		"saboteur_level": 5,
-		"saboteur_movetime": 5,
-		"saboteur_countdown": 15,
-		"saboteur_slowspeed": 0.25,
-		"saboteur_slowtime": 80,
+    "saboteur_enable": true,
+    "saboteur_frequency": 75,
+    "saboteur_level": 5,
+    "saboteur_movetime": 5,
+    "saboteur_countdown": 15,
+    "saboteur_slowspeed": 0.25,
+    "saboteur_slowtime": 80,
 
-		"order_enable": true,
-		"order_cost_multiplier": 1,
-		"order_reward_multiplier": 1,
+    "order_enable": false,
+    "order_cost_multiplier": 0.25,
+    "order_reward_multiplier": 1,
 
-		"new_refit_enable": true,
+    "new_refit_enable": false,
 
-		"AB_test_users": 80
-	},
-	"ABtests": {
-		"1.4.1Ref": {
-			"panel_size": 10
-		},
-		"1.4.1A": {
-			"panel_size": 10,
-			"free_fly_enbale": true
-		},
-		"1.4.1B": {
-			"panel_size": 10,
-			"saboteur_enable": true
-		},
-		"1.4.1C": {
-			"panel_size": 10,
-			"free_fly_enbale": true,
-			"saboteur_enable": true
-		},
-		"1.4.1D": {
-			"panel_size": 10,
-			"more_game_frequency": 999999
-		}
-	}
+    "AB_test_users": 80
+  },
+  "ABtests": {
+    "1.4.2Ref": {
+      "panel_size": 10
+    },
+    "1.4.2A": {
+      "panel_size": 10,
+      "free_fly_enbale": true
+    },
+    "1.4.2B": {
+      "panel_size": 10,
+      "order_enable": true
+    },
+    "1.4.2C": {
+      "panel_size": 10,
+      "new_refit_enable": true
+    },
+    "1.4.2D": {
+      "panel_size": 10,
+      "order_enable": true,
+      "new_refit_enable": true
+    },
+     "1.4.2E": {
+     "panel_size": 10,
+     "free_fly_enbale": true,
+     "order_enable": true,
+     "new_refit_enable": true
+    }
+  }
 }
