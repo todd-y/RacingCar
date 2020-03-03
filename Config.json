@@ -25,13 +25,13 @@
     "saboteur_slowspeed": 0.25,
     "saboteur_slowtime": 80,
 
-    "order_enable": false,
+    "order_enable": true,
     "order_cost_multiplier": 0.25,
     "order_reward_multiplier": 1,
 
     "new_refit_enable": false,
 
-    "AB_test_users": 80
+    "AB_test_users": 0
   },
   "ABtests": {
     "1.4.2Ref": {
