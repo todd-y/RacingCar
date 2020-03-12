@@ -43,20 +43,38 @@
 
     "sign_enable": false,
 
-    "AB_test_users": 50
+    "AB_test_users": 80
   },
   "ABtests": {
-    "1.4.4Ref": {
+    "1.4.6Ref": {
       "panel_size": 10
     },
-    "1.4.4A": {
+    "1.4.6A": {
       "panel_size": 10,
-      "free_fly_enbale": true,
-      "order_enable": false
+      "sign_enable": true
     },
-    "1.4.4B": {
+    "1.4.6B": {
       "panel_size": 10,
-      "new_refit_enable": false
+      "super_manager_enable": true
+    },
+	"1.4.6C": {
+      "panel_size": 10,
+      "ultra_enable": true
+    },
+	"1.4.6D": {
+      "panel_size": 10,
+      "super_manager_enable": true,
+      "ultra_enable": true
+    },
+	"1.4.6E": {
+      "panel_size": 10,
+      "sign_enable": false,
+      "super_manager_enable": true,
+      "ultra_enable": true
+    },
+    "1.4.6F": {
+      "panel_size": 10,
+      "order_enable": false
     }
   }
 }
