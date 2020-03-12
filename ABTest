@@ -68,7 +68,7 @@
     },
 	"1.4.6E": {
       "panel_size": 10,
-      "sign_enable": false,
+      "sign_enable": true,
       "super_manager_enable": true,
       "ultra_enable": true
     },
