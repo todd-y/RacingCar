@@ -31,6 +31,18 @@
 
     "new_refit_enable": true,
 
+    "super_manager_enable": false,
+    "super_manager_free_time": 60,
+    "super_manager_time": 120,
+    "super_manager_cost": 100,
+
+    "ultra_enable": false,
+    "ultra_free_time": 60,
+    "ultra_time": 120,
+    "ultra_cost": 200,
+
+    "sign_enable": false,
+
     "AB_test_users": 50
   },
   "ABtests": {
