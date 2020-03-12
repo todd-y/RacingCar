@@ -11,7 +11,7 @@
     "more_game_frequency": 9999,
     "spin_enabled": true,
 
-    "free_fly_enbale": false,
+    "free_fly_enbale": true,
     "free_fly_probability": 0.5,
     "free_fly_min_frequency": 35,
     "free_fly_max_frequency": 45,
@@ -29,36 +29,34 @@
     "order_cost_multiplier": 0.25,
     "order_reward_multiplier": 1,
 
-    "new_refit_enable": false,
+    "new_refit_enable": true,
+
+    "super_manager_enable": true,
+    "super_manager_free_time": 60,
+    "super_manager_time": 120,
+    "super_manager_cost": 100,
+
+    "ultra_enable": true,
+    "ultra_free_time": 60,
+    "ultra_time": 120,
+    "ultra_cost": 200,
+
+    "sign_enable": true,
 
     "AB_test_users": 0
   },
   "ABtests": {
-    "1.4.2Ref": {
+    "1.4.4Ref": {
       "panel_size": 10
     },
-    "1.4.2A": {
+    "1.4.4A": {
       "panel_size": 10,
-      "free_fly_enbale": true
+      "free_fly_enbale": true,
+      "order_enable": false
     },
-    "1.4.2B": {
+    "1.4.4B": {
       "panel_size": 10,
-      "order_enable": true
-    },
-    "1.4.2C": {
-      "panel_size": 10,
-      "new_refit_enable": true
-    },
-    "1.4.2D": {
-      "panel_size": 10,
-      "order_enable": true,
-      "new_refit_enable": true
-    },
-     "1.4.2E": {
-     "panel_size": 10,
-     "free_fly_enbale": true,
-     "order_enable": true,
-     "new_refit_enable": true
+      "new_refit_enable": false
     }
   }
 }
