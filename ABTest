@@ -31,48 +31,33 @@
 
     "new_refit_enable": true,
 
-    "super_manager_enable": false,
+    "super_manager_enable": true,
     "super_manager_free_time": 60,
     "super_manager_time": 120,
     "super_manager_cost": 100,
 
-    "ultra_enable": false,
+    "ultra_enable": true,
     "ultra_free_time": 60,
     "ultra_time": 120,
     "ultra_cost": 200,
 
     "sign_enable": false,
 
-    "AB_test_users": 80
+    "AB_test_users": 30
   },
-  "ABtests": {
-    "1.4.6Ref": {
+   "ABtests": {
+    "1.4.8Ref": {
       "panel_size": 10
     },
-    "1.4.6A": {
+    "1.4.8A": {
       "panel_size": 10,
-      "sign_enable": true
+      "ultra_enable": false
     },
-    "1.4.6B": {
+    "1.4.8B": {
       "panel_size": 10,
-      "super_manager_enable": true
+        "sign_enable": true
     },
-	"1.4.6C": {
-      "panel_size": 10,
-      "ultra_enable": true
-    },
-	"1.4.6D": {
-      "panel_size": 10,
-      "super_manager_enable": true,
-      "ultra_enable": true
-    },
-	"1.4.6E": {
-      "panel_size": 10,
-      "sign_enable": true,
-      "super_manager_enable": true,
-      "ultra_enable": true
-    },
-    "1.4.6F": {
+  "1.4.8C": {
       "panel_size": 10,
       "order_enable": false
     }
