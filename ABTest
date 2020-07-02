@@ -43,23 +43,11 @@
 
     "sign_enable": false,
 
-    "AB_test_users": 30
+    "AB_test_users": 0
   },
    "ABtests": {
     "1.4.8Ref": {
       "panel_size": 10
-    },
-    "1.4.8A": {
-      "panel_size": 10,
-      "ultra_enable": false
-    },
-    "1.4.8B": {
-      "panel_size": 10,
-        "sign_enable": true
-    },
-  "1.4.8C": {
-      "panel_size": 10,
-      "order_enable": false
     }
   }
 }
