@@ -10,6 +10,10 @@
     "world_cost_multiplier": 0.1,
     "more_game_frequency": 9999,
     "spin_enabled": true,
+    
+    "LaunchDes": "1) Please click \"Allow\" to get a better gaming experience so that we can serve you better \n\n 2) 99% of users are willing to watch ads",
+    "Airdrop_Box_Enable": true,
+    "Airdrop_Reward_Count": 1,
 
     "free_fly_enbale": false,
     "free_fly_probability": 0.5,
